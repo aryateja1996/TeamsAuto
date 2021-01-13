@@ -27,7 +27,7 @@ while True:
     # DemoMeetOne
     now = datetime.now().strftime("%H:%M")
     if now < '11:00':
-        DemoMeetOne = pyautogui.locateCenterOnScreen("DemoMeetOne.PNG")
+        DemoMeetOne = pyautogui.locateCenterOnScreen("NMCA-DBMS.PNG")
         pyautogui.moveTo(DemoMeetOne)
         pyautogui.click()
         time.sleep(2)
@@ -42,7 +42,7 @@ while True:
 
     elif now < '10:00':
         # DemoMeetTwo
-        DemoMeetTwo = pyautogui.locateCenterOnScreen("DemoMeetTwo.PNG")
+        DemoMeetTwo = pyautogui.locateCenterOnScreen("NMCA:SE.PNG")
         pyautogui.moveTo(DemoMeetTwo)
         pyautogui.click()
         time.sleep(2)
@@ -56,7 +56,7 @@ while True:
         time.sleep(2)
     elif now < '10:00':
         # DemoMeetTwo
-        DemoMeetTwo = pyautogui.locateCenterOnScreen("DemoMeetTwo.PNG")
+        DemoMeetTwo = pyautogui.locateCenterOnScreen("DAA.PNG")
         pyautogui.moveTo(DemoMeetTwo)
         pyautogui.click()
         time.sleep(2)
